@@ -1,4 +1,6 @@
 const a = ["dif"];
 const b = { fname: "op" };
 
-console.log(fname);
+console.log(a);
+
+console.log("op");
