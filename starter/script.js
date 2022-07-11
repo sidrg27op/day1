@@ -11,23 +11,23 @@ let d = 222;
 
 console.log(s <= d);
 
-const johnWeight = 85;
-const johnHeight = 1.76;
+// const johnWeight = 85;
+// const johnHeight = 1.76;
 
-const johnBmi = johnWeight / johnHeight ** 2;
+// const johnBmi = johnWeight / johnHeight ** 2;
 
-console.log(johnBmi);
+// console.log(johnBmi);
 
-const MarkWeight = 95;
-const MarkHeight = 1.88;
+// const MarkWeight = 95;
+// const MarkHeight = 1.88;
 
-const MarkBmi = MarkWeight / MarkHeight ** 2;
+// const MarkBmi = MarkWeight / MarkHeight ** 2;
 
-console.log(MarkBmi);
+// console.log(MarkBmi);
 
-const Markhigherbmi = MarkBmi > johnBmi;
+// const Markhigherbmi = MarkBmi > johnBmi;
 
-console.log(Markhigherbmi);
+// console.log(Markhigherbmi);
 
 // String
 
@@ -47,4 +47,24 @@ if (dl) {
   console.log(`Hurrey ✔ you are applicable for dl`);
 } else {
   console.log(`you have ${18 - age} years to get dl`);
+}
+
+// challange 2
+
+const johnWeight = 85;
+const johnHeight = 1.76;
+
+const johnBmi = johnWeight / johnHeight ** 2;
+
+console.log(johnBmi);
+
+const MarkWeight = 95;
+const MarkHeight = 1.88;
+
+const MarkBmi = MarkWeight / MarkHeight ** 2;
+
+if (MarkBmi > johnBmi) {
+  console.log(`Mark BMI ${MarkBmi} is greater than john BMI ${johnBmi}`);
+} else {
+  console.log(`John BMI ${johnBmi} is greater than Mark BMI ${MarkBmi}`);
 }
