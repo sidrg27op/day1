@@ -36,3 +36,15 @@ s
 op
 in
 the chat`);
+
+// if else
+
+const age = 18;
+
+const dl = age >= 18;
+
+if (dl) {
+  console.log(`Hurrey ✔ you are applicable for dl`);
+} else {
+  console.log(`you have ${18 - age} years to get dl`);
+}
