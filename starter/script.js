@@ -28,3 +28,11 @@ console.log(MarkBmi);
 const Markhigherbmi = MarkBmi > johnBmi;
 
 console.log(Markhigherbmi);
+
+// String
+
+console.log(`string\n\
+s
+op
+in
+the chat`);
