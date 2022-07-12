@@ -68,3 +68,15 @@ if (MarkBmi > johnBmi) {
 } else {
   console.log(`John BMI ${johnBmi} is greater than Mark BMI ${MarkBmi}`);
 }
+
+// type conversion
+
+const input = "1099";
+
+console.log(Number(input) + 21);
+console.log(input);
+
+// type corrcion
+
+console.log("i am " + 23 + " year old");
+console.log("21" - "3" - 2);
