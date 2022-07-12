@@ -39,15 +39,15 @@ the chat`);
 
 // if else
 
-const age = 18;
+// const age = 18;
 
-const dl = age >= 18;
+// const dl = age >= 18;
 
-if (dl) {
-  console.log(`Hurrey ✔ you are applicable for dl`);
-} else {
-  console.log(`you have ${18 - age} years to get dl`);
-}
+// if (dl) {
+//   console.log(`Hurrey ✔ you are applicable for dl`);
+// } else {
+//   console.log(`you have ${18 - age} years to get dl`);
+// }
 
 // challange 2
 
@@ -89,3 +89,27 @@ if (nuni) {
 } else {
   console.log("no nuni");
 }
+
+// equality opratiers or not equality =  (===) , (==) , (!==)
+
+// const age = "18";
+// if (age === 18) console.log("You just became an adult :D (strict)");
+
+// if (age == 18) console.log("You just became an adult :D (loose)");
+
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//   // 22 === 23 -> FALSE
+//   console.log("Cool! 23 is an amzaing number!");
+// } else if (favourite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favourite === 9) {
+//   console.log("9 is also a cool number");
+// } else {
+//   console.log("Number is not 23 or 7 or 9");
+// }
+
+// if (favourite !== 23) console.log("Why not 23?");
