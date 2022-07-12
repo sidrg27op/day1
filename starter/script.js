@@ -147,3 +147,20 @@ console.log(!nunidaa);
 // } else {
 //   console.log('No one wins the trophy 😭');
 // }
+
+// switch statement
+
+const dau = "w";
+
+switch (dau) {
+  case "op":
+    console.log("op");
+    break;
+
+  case "open":
+    console.log("open");
+    break;
+
+  default:
+    console.log("obd");
+}
