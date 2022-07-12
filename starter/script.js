@@ -80,3 +80,12 @@ console.log(input);
 
 console.log("i am " + 23 + " year old");
 console.log("21" - "3" - 2);
+
+// flasy values = 0 , "",undefined,NaN,null
+
+let nuni = 0;
+if (nuni) {
+  console.log(`my nuni is ${nuni}`);
+} else {
+  console.log("no nuni");
+}
