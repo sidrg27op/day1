@@ -113,3 +113,8 @@ if (nuni) {
 // }
 
 // if (favourite !== 23) console.log("Why not 23?");
+
+// Boolean logic || or && or !
+const nunidaa = true;
+
+console.log(!nunidaa);
